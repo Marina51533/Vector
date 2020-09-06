@@ -12,13 +12,8 @@
 }
 @media screen and (max-width: 400px){
   #enscart_wrapper {
-    
     margin-top:50px;
-  /*  top: 40px;
-    bottom:auto;  
-  margin:0;
-    right: auto;	
-    left: 200px;*/
+
   }
 }
 .modal-content{
@@ -86,7 +81,7 @@ font-size: 500;
 
 }
 .about{
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(245, 243, 243);
   display: flex;
   flex-wrap: wrap;
   padding-top: 10vh;
@@ -101,35 +96,34 @@ font-size: 500;
     margin-left:5vw;
   }
 }
-/*=delivery*/
-.delivery{
-  padding-top:20vh;
- 
-}
-.delivery h2{
-  text-align: center;
-}
-.delivery_content{
-  margin:20vh;
+
+/*-items*/
+.wrapper_items{
+  padding-left:8vw;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
-.delivery_content img{
-  height: 120px;
-  width: 150px;
-  margin:3vh;
-  
-}
-/*-items*/
 .card_item{
+  margin-top:15vh ;
   padding-top: 10vh;
   width:250px;
-  height: 400px;
+  height: fit-content;
+  border:1px solid rgb(226, 226, 226);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 5vw;
+}
+.card_item:hover{
+  box-shadow:rgb(226, 226, 226) 5px 6px 8px 6px ;
+}
+.card_item h3{
+  text-align: center;
 }
 .card_item img{
 height: 170px;
 width:250px;
-border:1px solid firebrick;
+
 }
 .inner_card{
   display: flex;
@@ -140,11 +134,37 @@ border:1px solid firebrick;
   border-radius: 10px;
   color:white;
   margin-top: 20px;
+  margin-left:40%;
+  margin-bottom: 30px;
+}
+/*=delivery*/
+.delivery{
+background-color: rgb(245, 249, 249);
+padding-top:20vh;
+padding-bottom: 10vh;
+
+}
+.delivery h2{
+  text-align: center;
+}
+.delivery_content{
+  margin:2vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.delivery_content img{
+  height: 120px;
+  width: 150px;
+  margin:3vh;
+  
 }
 /*--brands--*/
 
 .last{
   margin-bottom: 5vh;
+  padding-right: 5vw;
+  padding-left:5vw;
 }
 .last h2{
   font-size: 2.2rem;
@@ -152,10 +172,11 @@ border:1px solid firebrick;
   text-transform: uppercase;
   font-weight: 500;
   text-align: center;
-  margin: 5vh 0 5vh 0;
+  margin: 5vh 0 15vh 0;
 }
 .last p{
   text-align: center;
+  margin-bottom: 15vh;
 }
 .line{
   height: 3px;
@@ -175,6 +196,9 @@ border:1px solid firebrick;
   background-color: rgb(26, 25, 25);
   height: 100vh;
   color:white;
+}
+.container-fluid{
+  padding:0px;
 }
 
 .contacts_text{
@@ -197,6 +221,7 @@ border:1px solid firebrick;
 }
 .contacts_structure{
   display: flex;
+  padding-left: 2vh;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -223,8 +248,9 @@ border:1px solid firebrick;
   }
   .map img{
     margin-top:10vh;
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 400px;
+
   }
   .pt-10{
     font-size: 18px;
