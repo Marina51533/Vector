@@ -85,7 +85,7 @@ font-size: 500;
 
 }
 .about{
-  background-color: rgb(245, 243, 243);
+  background-color: rgb(243, 255, 253);
   display: flex;
   flex-wrap: wrap;
   padding: 10vh 3vh 7vh 3vh;
@@ -148,10 +148,10 @@ width:250px;
 }
 /*=delivery*/
 .delivery{
-background-color: rgb(245, 249, 249);
+background-color: rgb(245, 255, 253);
 margin-top:10vh;
 padding: 0 15px 2vh 15px;
-height: 75vh;
+height: 80vh;
 }
 
 .delivery h2{
@@ -192,7 +192,7 @@ height: 75vh;
 .line{
   height: 3px;
   width: 100vw;
-  background-color: rgb(228, 227, 227);
+  
 }
 .brands{
   display: flex;
@@ -272,6 +272,9 @@ height: 75vh;
   .welcome{
     font-size: 20px;
   }
+  .delivery{
+    height: fit-content;
+  }
 }
 @media (max-width:600px) {
 .contacts_text h3{
@@ -302,6 +305,9 @@ height: 75vh;
 }
 .pt-10{
   font-size: 16px;
+}
+.wrapper_items{
+  padding-left: 0px;
 }
 }
 /*---form contacts*/
