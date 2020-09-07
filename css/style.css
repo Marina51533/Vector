@@ -27,6 +27,12 @@
 .navbar{
   width: 100vw;
 }
+.logo_img{
+  height: 50px;
+  width: 60px;
+  border-radius: 15px;
+}
+
 .navbar-nav a{
   font-size: 1.2rem;
   font-weight: 500;
@@ -386,4 +392,9 @@ input.error:focus, textarea.error:focus {
 }
 #send:hover {
     background:#979797;
+}
+@media (max-width:600px) {
+  .contact_text{
+    margin-left: 23vw;
+  }
 }
