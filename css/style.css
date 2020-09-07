@@ -140,11 +140,13 @@ width:250px;
 /*=delivery*/
 .delivery{
 background-color: rgb(245, 249, 249);
-padding-top:20vh;
+margin-top:10vh;
 padding-bottom: 10vh;
+height: 60vh;
 
 }
 .delivery h2{
+  padding-top:10vh;
   text-align: center;
 }
 .delivery_content{
