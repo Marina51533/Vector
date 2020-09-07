@@ -76,6 +76,10 @@
 font-size: 500;
 }
 /*--first_section*/
+.row{
+  margin-right: 15px;
+  margin-left: 15px;
+}
 .first_section{
  height: 100vh;
 
@@ -84,7 +88,12 @@ font-size: 500;
   background-color: rgb(245, 243, 243);
   display: flex;
   flex-wrap: wrap;
-  padding-top: 10vh;
+  padding: 10vh 3vh 7vh 3vh;
+  
+}
+.about h2{
+  margin-top:10vh;
+  margin-left:30px;
 }
 .btn-dark{
   margin-bottom: 5vh;;
@@ -141,10 +150,10 @@ width:250px;
 .delivery{
 background-color: rgb(245, 249, 249);
 margin-top:10vh;
-padding-bottom: 10vh;
-height: 60vh;
-
+padding: 0 15px 2vh 15px;
+height: 75vh;
 }
+
 .delivery h2{
   padding-top:10vh;
   text-align: center;
