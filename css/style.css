@@ -98,8 +98,8 @@ font-size: 500;
   
 }
 .about h2{
-  margin-top:15vh;
-  margin-left:30px;
+  margin:15vh auto 5vh 30px;
+  
 }
 .btn-dark{
   margin-bottom: 5vh;;
@@ -133,13 +133,19 @@ font-size: 500;
 .card_item:hover{
   box-shadow:rgb(226, 226, 226) 5px 6px 8px 6px ;
 }
-.card_item h3{
+.card_item h6{
   text-align: center;
 }
 .card_item img{
 height: 170px;
 width:250px;
-
+}
+.price{
+  text-align: center;
+}
+.price span{
+  font-weight: 500;
+  font-size: 1.2rem;
 }
 .inner_card{
   display: flex;
@@ -153,6 +159,7 @@ width:250px;
   margin-left:40%;
   margin-bottom: 30px;
 }
+
 /*=delivery*/
 .delivery{
 background-color: rgb(245, 255, 253);
