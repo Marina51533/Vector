@@ -303,15 +303,12 @@
 
   </div>
 
-  <div class='delivery' id='del'>
+  <div class='delivery' >
     <h2>Delivery</h2>
     <div class='delivery_content'>
-    <img src='img/delivery.jpg'>
-    <p>Pick up from our store (Žitná 30, Praha 2)<br>
-      Courier delivery around Prague weekdays monday-friday from 10 a.m. till 6 p.m. - 200 krones<br>
-      courier delivery around Prague weekends Saturday and Sunday or weekdays mornings till 10 a.m. and evenings after 6 p.m. - 300 krones<br>
-      Courier delivery out of Prague within 20 km - 300 krones<br>
-      Free delivery for the orders 3 000 krones or more</p>
+    <img id='delivery' src='img/logoDe.png'></div>
+    <div id='del' class='del_text'><h4>Delivery is made anywhere in the world.</h4>
+    <p>We will do our best for the equipment to arrive soon as possible, delivery is carried out by the best logistics companies.  Delivery price decreases in proportion to the order amount.</p>
     </div>
   </div>
 
@@ -370,6 +367,8 @@
         document.getElementById("opac").style.opacity = 1;
         document.getElementById("opac1").style.opacity = 1;
         document.getElementById("opac1").style.paddingTop = '78vh';
+        document.getElementById("delivery").style.opacity = 1;
+        document.getElementById("del").style.marginLeft = '11vw';
       });
     });
   

@@ -124,10 +124,11 @@ color:rgb(155, 154, 154);
 
 }
 .about{
-  background-color: rgb(243, 255, 253);
+  background-color: rgb(7, 7, 7);
   display: flex;
   flex-wrap: wrap;
   padding: 10vh 3vh 7vh 3vh;
+  color:white;
   
 }
 .about h2{
@@ -153,6 +154,7 @@ color:rgb(155, 154, 154);
 }
 /*-select*/
 .select{
+  margin-top: 5vh;
   position: relative;
   margin-left: 5vw;
 }
@@ -233,14 +235,16 @@ width:210px;
 
 /*=delivery*/
 .delivery{
-background-color: rgb(245, 255, 253);
+background-color: rgb(13, 1, 82);
 margin-top:10vh;
 padding: 0 15px 2vh 15px;
 height: 80vh;
+color:white;
 }
 
 .delivery h2{
   padding-top:10vh;
+  padding-bottom: 7vh;
   text-align: center;
 }
 .delivery_content{
@@ -252,8 +256,16 @@ height: 80vh;
 .delivery_content img{
   height: 120px;
   width: 150px;
-  margin:3vh;
-  
+  margin:0 3vh 3vh 0;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 5s;
+}
+.del_text{
+  padding-left:5vw;
+  padding-right: 5vw;
+  margin-left:-100%;
+  transition: 6s;
 }
 /*--brands--*/
 
