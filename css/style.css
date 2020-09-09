@@ -313,13 +313,12 @@ color:white;
 .contacts_text{
   margin:20vh 0 0 10vw;
 }
-.contacts_text h3{
-  font-size: 2rem;
+.contacts_text h5{
+  font-size: 1.3rem;
   margin-top: 5vh;
+  color: rgb(2, 70, 255);
 }
-.contacts_text h4{
-  font-size: 1.8rem;
-}
+
 .contacts_text p{
   font-size: 1.3rem;
 }
@@ -345,13 +344,12 @@ color:white;
     height: 70px;
     width: 80px;
   }
-  .contacts_text h3{
+  .contacts_text h5{
     font-size: 1.4rem;
     margin-top: 5vh;
+   
   }
-  .contacts_text h4{
-    font-size: 1.5rem;
-  }
+  
   .contacts_text p{
     font-size: 1.2rem;
   }
@@ -375,13 +373,12 @@ color:white;
   }
 }
 @media (max-width:600px) {
-.contacts_text h3{
-  font-size: 1.3rem;
-  margin-top: 5vh;
-}
-.contacts_text h4{
+.contacts_text h5{
   font-size: 1.2rem;
+  margin-top: 5vh;
+  color: rgb(2, 70, 255);
 }
+
 .contacts_text p{
   font-size: 1rem;
 }
