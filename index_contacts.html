@@ -27,8 +27,8 @@
     </div>
   </div>
 
-  <nav  class=" navbar navbar-expand-lg fixed-top navbar-light" style='background-color: beige;'>
-    <a  id='opac' class="navbar-brand ml-lg-4" href="#">VECTOR</a>
+  <nav  id='opac' class=" navbar navbar-expand-lg fixed-top navbar-dark" style='background-color: rgb(0, 0, 2);'>
+    <a  class="navbar-brand ml-lg-4" href="#"><img class='logo_img' src='img/logo.png'></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -70,9 +70,10 @@
   
 <div class='contact_text'>
   <h4>Contact</h4>
-  <p><span>Address:</span> Poland,44567</p>
-  <p><span>E-mail:</span> @@@@@@@@@</p>
-  <p><span>Phone:</span> 456-654-567</p>
+  <p><span>Address:</span>  Hoża 86, 410  
+    000-682 MAZOWIECKIE, POLAND</p>
+  <p><span>E-mail:</span> Invector.sp@gmail.ru</p>
+  <p><span>Phone:</span> +485 392 145 16</p>
 </div>
 
   <div class='wrapper_contact'>
@@ -95,11 +96,16 @@
       </div>
       <div class='col'>
         <div class='contacts_text'>
-          <h4>Address</h4>
-          <p> Prague, Trnkovo namesti,1112/1</p>
-          <h3>Work time</h3>
-          <p>Mo. - Sam.  9.00 - 19.00</p>
-          <p>Sunday   11.00 - 18.00</p>
+          <h5>Address</h5>
+          <p> IN VECTOR Sp. z o.o.<br>
+            Hoża 86, 410  
+            000-682 MAZOWIECKIE, POLAND
+          </p>
+          <h5>Phone number:</h5>
+          <p>+485 392 145 16</p>
+          <h5>Email:</h5>
+          <a href='#'>Invector.sp@gmail.ru</a>
+          
         </div>
       </div>
     </row>
@@ -129,7 +135,7 @@
         $("#image-modal").modal('hide')
       });
       document.addEventListener("scroll", function() {
-        document.getElementById("opac").style.opacity = (60 - pageYOffset) / 60;
+        document.getElementById("opac").style.opacity = 1;
       });
     });
    document.getElementById('one').onclick=function(e){
