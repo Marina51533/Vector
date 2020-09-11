@@ -380,6 +380,10 @@ color:white;
   .delivery{
     height: fit-content;
   }
+  .contacts{
+    height: fit-content;
+    padding-bottom: 3vh;
+  }
 }
 @media (max-width:600px) {
 .contacts_text h5{
