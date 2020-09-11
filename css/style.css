@@ -347,9 +347,11 @@ color:white;
   .contacts_text h5{
     font-size: 1.4rem;
     margin-top: 5vh;
-   
   }
   
+  .contacts_text a{
+    font-size: 1.2rem;
+  }
   .contacts_text p{
     font-size: 1.2rem;
   }
